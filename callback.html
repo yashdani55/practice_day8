@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Callback</h2>
+
+<p><button onclick="f()">Click</button></p>
+
+<h1 id="demo"></h1>
+
+<script>
+function f(){
+    setTimeout(myFunction, 3000);
+}    
+    
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello !!";
+}
+</script>
+
+</body>
+</html>
